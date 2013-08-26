@@ -1,7 +1,7 @@
 #include "mysqlconn.h"
 int main()
 {
-	mysqlconn sqlconn("tcp://127.0.0.1:3306","root","root");
+	mysqlconn sqlconn("tcp://127.0.0.1:3306","XXX","XXX");
 	Connection *conn;
 	conn=sqlconn.GetConnection();
 	Statement *state;
